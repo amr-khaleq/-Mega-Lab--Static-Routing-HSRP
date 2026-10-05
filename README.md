@@ -1,10 +1,4 @@
-أيوه يا هندسة، اللاب ده **ممتاز جدًا كـ LinkedIn + GitHub Portfolio Project** لأنه بيجمع بين **Static Routing + HSRP + Layer 3 Switching + Redundancy + Failure Testing**.
 
-بس قبل النشر، فيه نقطة مهمة: بما إن **L3-SW1 وL3-SW2 عندهم نفس الـ VLANs كـ SVI**، فالـ VLAN 20 و30 تعتبر Connected Routes على كل Switch، وبالتالي الـ Static Routes الخاصة بها بين الـ L3 Switches ليست ضرورية. الأفضل في الـ README نعرضها كجزء من تجربة الـ Static Routing، مع توضيح هذه النقطة.
-
-# 1. LinkedIn Post — جاهز للنشر
-
-```text
 🔥 Mega Lab: Static Routing + HSRP | Cisco Packet Tracer
 
 I completed a practical enterprise networking lab focused on Layer 3 routing, gateway redundancy, and high availability.
